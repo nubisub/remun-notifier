@@ -71,7 +71,6 @@ def get_data(number):
         return None
 
     title_data = title_data.title()
-    title_data = title_data.split("Lingkungan ", 1)[1]
     date_data = data['data']['tgl_di']
     no_data = data['data']['no_peraturan']
     url_data = data['datafile'][0]['url2']
@@ -81,6 +80,7 @@ def get_data(number):
         
     
     if "Tunjangan Kinerja" in title_data:
+        title_data = title_data.split("Lingkungan ", 1)[1]
         send_email(f"Tukin Naik", title_data)
         with open('README.md', 'a') as file:
             file.write(f"- `{date_data}` - `Perpres No {no_data}` - [{title_data}](<File/{url_name}>)\n")
