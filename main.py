@@ -70,14 +70,18 @@ def get_data(number):
     title_data = title_data.title()
     date_data = data['data']['tgl_di']
     no_data = data['data']['no_peraturan']
-    # add to last line of README.md
+    url_data = data['datafile'][0]['url2']
+    url_name = data['datafile'][0]['basename']
+    number_data = 'P' + str(number)
 
         
     
     if "Tunjangan Kinerja" in title_data:
         send_email(f"Tukin Naik", title_data)
         with open('README.md', 'a') as file:
-            file.write(f"- `{date_data}` - `Perpres No {no_data}` - {title_data}\n")
+            file.write(f"- `{date_data}` - `Perpres No {no_data}` - [{title_data}](<File/{url_name}>)\n")
+        download_pdf(url_data, url_name, number_data)
+        
     print(f"Title for number {number}: {title_data}")
     return get_data(number + 1)
 
@@ -116,6 +120,50 @@ def send_email(subject, body):
 
     finally:
         server.quit()
+        
+def download_pdf(url, name, number):
+
+    csrf_token = "12be17607c5ab3c1fcb02fbeb6facd97"
+
+    # Prepare the payload with form data
+    payload = {
+        "CSRFToken": csrf_token,
+        "f": number,
+        "ts": name,
+    }
+
+    # Define the headers
+    headers = {
+        "accept": "application/json, text/javascript, */*; q=0.01",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9,id;q=0.8",
+        "connection": "keep-alive",
+        "cookie": "ci_session=akbdg7llkm6ga1qbfisph0nrsgss6bh4; CSRFCookie=12be17607c5ab3c1fcb02fbeb6facd97; TS01e7ed0b=01f94ebe60c93fe24a5f13eacb0e4b9cb9f49c9161501389ec1626c558948dd877457c4246fa436a5e4c7299f259fb6ebbcb95736c232bdab5c4418e7e5fa2fb541e1d675e6a279bff8899bdd2477d912f62cec8f8; TSca2e059f027=086c094b6eab20002d2b34d434cba7aa34388d4b9f7a41dea0dd02b9cf124fda097c82e8524db70608585b7e4e1130003b7c795514e061542018585189a63f23bb10fbea9d44f9ece8acf558e46bb6ca4100412eab53bdf22130d556e5abb019",
+        "host": "jdih.setneg.go.id",
+        "referer": "https://jdih.setneg.go.id/Terbaru",
+        "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "x-requested-with": "XMLHttpRequest"
+    }
+
+    # Submit the form using POST request with headers
+    response = requests.post(url, data=payload, headers=headers)
+
+    # Check if the request was successful
+    if response.status_code == 200:
+        # save the PDF file to the 'data' folder
+        with open(f"File/{name}", "wb") as f:
+            f.write(response.content)
+
+        
+    else:
+        print(f"Failed to submit form. Status code: {response.status_code}")
+
 
 def main():
     try:
