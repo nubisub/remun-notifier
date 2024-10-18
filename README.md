@@ -18,5 +18,4 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 | [Kementerian Pemberdayaan Perempuan Dan Perlindungan Anak](<File/Salinan Perpres Nomor 71 Tahun 2024.pdf>)    | `No 71` | `2024-07-02` |
 | [Badan Narkotika Nasional](<File/Salinan Perpres Nomor 78 Tahun 2024.pdf>)                                    | `No 78` | `2024-08-06` |
 | [Sekretariat Jenderal Komisi Nasional Hak Asasi Manusia](<File/Salinan Perpres Nomor 94 Tahun 2024.pdf>)      | `No 94` | `2024-08-28` |
-| [Badan Keamanan Laut](<File/Salinan Perpres Nomor 97 Tahun 2024.pdf>)                                         | `No 97` | `2024-09-02` ||[Kementerian Koordinator Bidang Pembangunan Manusia Dan Kebudayaan](<File/Salinan Perpres Nomor 102 Tahun 2024.pdf>) |`No 102` | `2024-09-30` |
-|[Badan Nasional Pencarian Dan Pertolongan](<File/Salinan Perpres Nomor 118 Tahun 2024.pdf>) |`No 118` | `2024-10-11` |
+| [Badan Keamanan Laut](<File/Salinan Perpres Nomor 97 Tahun 2024.pdf>)                                         | `No 97` | `2024-09-02` |
