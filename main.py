@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Set the number of the last Perpres you want to check
 def set_json(number):
     data = {
         "number": number
@@ -15,7 +16,8 @@ def set_json(number):
 
     with open('number.json', 'w') as file:
         json.dump(data, file)
-        
+
+# recursively fetch data for each Perpres
 def get_data(number):
     url = f"https://jdih.setneg.go.id/front/Peraturan/ajaxview?id=P{number}"
     headers = {
@@ -62,9 +64,6 @@ def get_data(number):
         return None
 
     title_data = data['data']['tentang']
-    # splice data to get the title after Lingkungan
-    
-    
 
     if title_data is None:
         print(f"Title data is None for number {number}. Stopping recursion.")
@@ -79,7 +78,7 @@ def get_data(number):
 
         
     
-    if "Tunjangan Kinerja" in title_data:
+    if "Tunjangan Kinerja" in title_data and "Pembayaran" not in title_data:
         title_data = title_data.split("Lingkungan ", 1)[1]
         send_email(f"Tukin Naik", title_data)
         with open('README.md', 'a') as file:
@@ -89,11 +88,11 @@ def get_data(number):
     print(f"Title for number {number}: {title_data}")
     return get_data(number + 1)
 
+# send email with the title of the Perpres
 def send_email(subject, body):
     sender_email = os.getenv('EMAIL_SENDER')
     receiver_email = os.getenv('EMAIL_RECEIVER')
 
-    # If you are using Gmail, use "smtp.gmail.com" and port 587
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     smtp_username = os.getenv('EMAIL_SENDER')
@@ -104,19 +103,12 @@ def send_email(subject, body):
     msg['To'] = receiver_email
     msg['Subject'] = subject
 
-    # Attach the body with the msg instance
     msg.attach(MIMEText(body, 'plain'))
     try:
-        # Establish a secure session with the server using SMTP
         server = smtplib.SMTP(smtp_server, smtp_port)
         server.starttls()  # Enable security
-
-        # Log in to your email account
         server.login(smtp_username, smtp_password)
-
-        # Send the email
         server.send_message(msg)
-
         print("Email sent successfully")
 
     except Exception as e:
@@ -124,19 +116,15 @@ def send_email(subject, body):
 
     finally:
         server.quit()
-        
+
+# download the PDF file and save it to the File folder
 def download_pdf(url, name, number):
-
     csrf_token = "12be17607c5ab3c1fcb02fbeb6facd97"
-
-    # Prepare the payload with form data
     payload = {
         "CSRFToken": csrf_token,
         "f": number,
         "ts": name,
     }
-
-    # Define the headers
     headers = {
         "accept": "application/json, text/javascript, */*; q=0.01",
         "accept-encoding": "gzip, deflate, br, zstd",
@@ -155,16 +143,10 @@ def download_pdf(url, name, number):
         "x-requested-with": "XMLHttpRequest"
     }
 
-    # Submit the form using POST request with headers
     response = requests.post(url, data=payload, headers=headers)
-
-    # Check if the request was successful
     if response.status_code == 200:
-        # save the PDF file to the 'data' folder
         with open(f"File/{name}", "wb") as f:
             f.write(response.content)
-
-        
     else:
         print(f"Failed to submit form. Status code: {response.status_code}")
 
