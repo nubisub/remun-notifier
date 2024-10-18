@@ -82,7 +82,7 @@ def get_data(number):
         title_data = title_data.split("Lingkungan ", 1)[1]
         send_email(f"Tukin Naik", title_data)
         with open('README.md', 'a') as file:
-            file.write(f"- `{date_data}` - `Perpres No {no_data}` - [{title_data}](<File/{url_name}>)\n")
+            file.write(f"|[{title_data}](<File/{url_name}>) |`No {no_data}` | `{date_data}` |\n")
         download_pdf(url_data, url_name, number_data)
         
     print(f"Title for number {number}: {title_data}")
