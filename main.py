@@ -62,6 +62,10 @@ def get_data(number):
         return None
 
     title_data = data['data']['tentang']
+    # splice data to get the title after Lingkungan
+    title_data = title_data.split("Lingkungan ", 1)[1]
+    
+    
 
     if title_data is None:
         print(f"Title data is None for number {number}. Stopping recursion.")
