@@ -2,7 +2,7 @@ name: Update Tukin Notification
 
 on:
   schedule:
-    - cron: "0 23,11 * * *" # Runs every day at 6am and 6pm wib
+    - cron: "0 5,11,17,23 * * *" # Runs every day at 6am and 6pm wib
   push:
     branches: ["main"] # Runs only when code is pushed to the main branch
 
