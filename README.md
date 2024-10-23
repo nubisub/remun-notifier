@@ -23,3 +23,5 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Badan Nasional Pencarian Dan Pertolongan](<File/Salinan Perpres Nomor 118 Tahun 2024.pdf>) |`No 118` | `2024-10-11` |
 |[Kementerian Ketenagakerjaan](<File/Salinan Perpres 133 Tahun 2024.pdf>) |`No 133` | `2024-10-18` |
 |[Sekretariat Jenderal Dewan Perwakilan Rakyat Republik Indonesia](<File/Salinan Perpres Nomor 135 Tahun 2024.pdf>) |`No 135` | `2024-10-18` |
+|[Kementerian Ketenagakerjaan](<File/Salinan Perpres 133 Tahun 2024.pdf>) |`No 133` | `2024-10-18` |
+|[Sekretariat Jenderal Dewan Perwakilan Rakyat Republik Indonesia](<File/Salinan Perpres Nomor 135 Tahun 2024.pdf>) |`No 135` | `2024-10-18` |

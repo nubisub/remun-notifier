@@ -70,15 +70,13 @@ def get_data(number):
         return None
 
     title_data = title_data.title()
-    date_data = data['data']['tgl_di']
-    no_data = data['data']['no_peraturan']
-    url_data = data['datafile'][0]['url2']
-    url_name = data['datafile'][0]['basename']
-    number_data = 'P' + str(number)
-
-        
     
     if "Tunjangan Kinerja" in title_data and "Pembayaran" not in title_data:
+        date_data = data.get('data', {}).get('tgl_di', '')
+        no_data = data.get('data', {}).get('no_peraturan', '')
+        url_data = data.get('datafile', [{}])[0].get('url2', '')
+        url_name = data.get('datafile', [{}])[0].get('basename', '')
+        number_data = 'P' + str(number)
         title_data = title_data.split("Lingkungan ", 1)[1]
         send_email(f"Tukin Naik", title_data)
         with open('README.md', 'a') as file:
