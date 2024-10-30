@@ -2,7 +2,7 @@ name: Update Tukin Notification
 
 on:
   schedule:
-    - cron: "0 5,11,17,23 * * *" # Runs every day at 6am and 6pm wib
+    - cron: "0 5,11,17,23 * * *" # Runs every day at 6,12am and 6,12pm wib
   push:
     branches: ["main"] # Runs only when code is pushed to the main branch
 
@@ -51,4 +51,4 @@ jobs:
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Run Workflow Every 6am and 6pm
+          commit_message: Run Workflow

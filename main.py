@@ -162,7 +162,6 @@ def download_pdf(url, name, number):
 # insert data to MongoDB
 def insertData(df):
     uri = os.getenv('DB_URI')
-
     client = MongoClient(uri, server_api=ServerApi('1'))
     db = client.tukin
     collection = db.tukin
@@ -174,6 +173,7 @@ def insertData(df):
     except pymongo.errors.BulkWriteError as bwe:
         print(bwe.details)
     client.close()
+    return result
 
 # Categories the data based on the last page of the PDF
 def categorizeData(path):

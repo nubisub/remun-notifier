@@ -22,8 +22,3 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Badan Narkotika Nasional](<File/Salinan Perpres Nomor 78 Tahun 2024.pdf>) |`No 78` | `4` |`2024-08-06` |
 |[Sekretariat Jenderal Komisi Nasional Hak Asasi Manusia](<File/Salinan Perpres Nomor 94 Tahun 2024.pdf>) |`No 94` | `3` |`2024-08-28` |
 |[Badan Keamanan Laut](<File/Salinan Perpres Nomor 97 Tahun 2024.pdf>) |`No 97` | `2` |`2024-09-02` |
-|[Badan Keamanan Laut](<File/Salinan Perpres Nomor 97 Tahun 2024.pdf>) |`No 97` | `2` |`2024-09-02` |
-|[Kementerian Koordinator Bidang Pembangunan Manusia Dan Kebudayaan](<File/Salinan Perpres Nomor 102 Tahun 2024.pdf>) |`No 102` | `4` |`2024-09-30` |
-|[Badan Nasional Pencarian Dan Pertolongan](<File/Salinan Perpres Nomor 118 Tahun 2024.pdf>) |`No 118` | `4` |`2024-10-11` |
-|[Kementerian Ketenagakerjaan](<File/Salinan Perpres 133 Tahun 2024.pdf>) |`No 133` | `6` |`2024-10-18` |
-|[Sekretariat Jenderal Dewan Perwakilan Rakyat Republik Indonesia](<File/Salinan Perpres Nomor 135 Tahun 2024.pdf>) |`No 135` | `5` |`2024-10-18` |
