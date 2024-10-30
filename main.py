@@ -5,6 +5,13 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from dotenv import load_dotenv
+import pymongo
+import json
+from pymongo import MongoClient, InsertOne
+from pymongo.server_api import ServerApi
+import pandas as pd
+import pdfplumber
+
 
 load_dotenv()
 
@@ -73,17 +80,20 @@ def get_data(number):
     
     if "Tunjangan Kinerja" in title_data and "Pembayaran" not in title_data:
         date_data = data.get('data', {}).get('tgl_di', '')
+        peraturan_name = data.get('data', {}).get('tentang', '')
         no_data = data.get('data', {}).get('no_peraturan', '')
         url_data = data.get('datafile', [{}])[0].get('url2', '')
         url_name = data.get('datafile', [{}])[0].get('basename', '')
         number_data = 'P' + str(number)
         title_data = title_data.split("Lingkungan ", 1)[1]
-        send_email(f"Tukin Naik", title_data)
-        with open('README.md', 'a') as file:
-            file.write(f"|[{title_data}](<File/{url_name}>) |`No {no_data}` | `{date_data}` |\n")
-        download_pdf(url_data, url_name, number_data)
+        tukin_category = categorizeData(f"File/{url_name}")
+        df = pd.DataFrame({'peraturan_number': number, 'peraturan_year': date_data, 'peraturan_title': peraturan_name, 'peraturan_download_id': 0,'peraturan_url_id': 0, 'pdf_url': os.getenv('PDF_URL') + url_name, 'is_aktif':1,'tukin_category': tukin_category}, index=[0])
         
-    print(f"Title for number {number}: {title_data}")
+        download_pdf(url_data, url_name, number_data)
+        with open('README.md', 'a') as file:
+            file.write(f"|[{title_data}](<File/{url_name}>) |`No {no_data}` | `{tukin_category}` |`{date_data}` |\n")
+        send_email(f"Tukin Naik", title_data)
+        insertData(df)
     return get_data(number + 1)
 
 # send email with the title of the Perpres
@@ -148,6 +158,44 @@ def download_pdf(url, name, number):
     else:
         print(f"Failed to submit form. Status code: {response.status_code}")
 
+
+
+
+def insertData(df):
+    uri = os.getenv('DB_URI')
+
+    client = MongoClient(uri, server_api=ServerApi('1'))
+    db = client.tukin
+    collection = db.tukin
+    requesting = []
+    for i in range(0, len(df)):
+        requesting.append(InsertOne(df.iloc[i].to_dict()))
+    try:
+        result = collection.bulk_write(requesting)
+    except pymongo.errors.BulkWriteError as bwe:
+        print(bwe.details)
+    client.close()
+    
+def categorizeData(path):
+    with pdfplumber.open(path) as pdf:
+        last_page = len(pdf.pages)
+        page = pdf.pages[last_page - 1]
+        text = page.extract_text()
+        
+        if '563' in text:
+            return 1
+        elif '766' in text:
+            return 2
+        elif '968' in text:
+            return 3
+        elif '531' in text:
+            return 4
+        elif '575' in text:
+            return 5
+        elif '924' in text:
+            return 0
+        else:
+            return 6
 
 def main():
     try:
