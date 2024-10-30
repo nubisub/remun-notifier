@@ -23,3 +23,6 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Sekretariat Jenderal Komisi Nasional Hak Asasi Manusia](<File/Salinan Perpres Nomor 94 Tahun 2024.pdf>) |`No 94` | `3` |`28 August 2024` |
 |[Badan Keamanan Laut](<File/Salinan Perpres Nomor 97 Tahun 2024.pdf>) |`No 97` | `2` |`02 September 2024` |
 |[Kementerian Koordinator Bidang Pembangunan Manusia Dan Kebudayaan](<File/Salinan Perpres Nomor 102 Tahun 2024.pdf>) |`No 102` | `4` |`30 September 2024` |
+|[Badan Nasional Pencarian Dan Pertolongan](<File/Salinan Perpres Nomor 118 Tahun 2024.pdf>) |`No 118` | `4` |`11 October 2024` |
+|[Kementerian Ketenagakerjaan](<File/Salinan Perpres 133 Tahun 2024.pdf>) |`No 133` | `6` |`18 October 2024` |
+|[Sekretariat Jenderal Dewan Perwakilan Rakyat Republik Indonesia](<File/Salinan Perpres Nomor 135 Tahun 2024.pdf>) |`No 135` | `5` |`18 October 2024` |
