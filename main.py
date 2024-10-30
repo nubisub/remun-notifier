@@ -159,8 +159,7 @@ def download_pdf(url, name, number):
         print(f"Failed to submit form. Status code: {response.status_code}")
 
 
-
-
+# insert data to MongoDB
 def insertData(df):
     uri = os.getenv('DB_URI')
 
@@ -175,7 +174,8 @@ def insertData(df):
     except pymongo.errors.BulkWriteError as bwe:
         print(bwe.details)
     client.close()
-    
+
+# Categories the data based on the last page of the PDF
 def categorizeData(path):
     with pdfplumber.open(path) as pdf:
         last_page = len(pdf.pages)
