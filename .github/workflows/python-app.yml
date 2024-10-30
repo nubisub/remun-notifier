@@ -20,6 +20,8 @@ jobs:
       EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
       EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
       PASSWORD: ${{ secrets.PASSWORD }}
+      DB_URI: ${{ secrets.DB_URI }}
+      PDF_URL: ${{ secrets.PDF_URL }}
 
     steps:
       - name: Checkout code
