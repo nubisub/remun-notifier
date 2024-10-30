@@ -1,2 +1,6 @@
 requests
 python-dotenv
+pymongo
+pymongo
+pandas
+pdfplumber
