@@ -1,5 +1,8 @@
 # Daftar Update Tukin
 
+[![Update Tukin Notification](https://github.com/nubisub/remun-notifier/actions/workflows/python-app.yml/badge.svg)](https://github.com/nubisub/remun-notifier/actions/workflows/python-app.yml)
+[![pages-build-deployment](https://github.com/nubisub/remun-notifier/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/nubisub/remun-notifier/actions/workflows/pages/pages-build-deployment)
+
 Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kementerian Sekretariat Negara (Kemensetneg) dari tahun 2024 hingga saat ini.
 
 | Kementerian/Lembaga | Perpres | Jelata | Tanggal |
