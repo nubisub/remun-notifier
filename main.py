@@ -11,6 +11,7 @@ from pymongo import MongoClient, InsertOne
 from pymongo.server_api import ServerApi
 import pandas as pd
 import pdfplumber
+from datetime import datetime
 
 
 load_dotenv()
@@ -80,18 +81,22 @@ def get_data(number):
     
     if "Tunjangan Kinerja" in title_data and "Pembayaran" not in title_data:
         date_data = data.get('data', {}).get('tgl_di', '')
+        date_obj = datetime.strptime(date_data, '%Y-%m-%d')
+        formatted_date = date_obj.strftime('%d %B %Y')
+        year = date_obj.year
         peraturan_name = data.get('data', {}).get('tentang', '')
         no_data = data.get('data', {}).get('no_peraturan', '')
         url_data = data.get('datafile', [{}])[0].get('url2', '')
         url_name = data.get('datafile', [{}])[0].get('basename', '')
         number_data = 'P' + str(number)
         title_data = title_data.split("Lingkungan ", 1)[1]
-        tukin_category = categorizeData(f"File/{url_name}")
-        df = pd.DataFrame({'peraturan_number': number, 'peraturan_year': date_data, 'peraturan_title': peraturan_name, 'peraturan_download_id': 0,'peraturan_url_id': 0, 'pdf_url': "https://nubisub.github.io/remun-notifier/File/" + url_name, 'is_aktif':1,'tukin_category': tukin_category}, index=[0])
-        
         download_pdf(url_data, url_name, number_data)
+        tukin_category = categorizeData(f"File/{url_name}")
+        df = pd.DataFrame({'peraturan_number': number, 'peraturan_year': year, 'peraturan_title': peraturan_name, 'peraturan_download_id': 0,'peraturan_url_id': 0, 'pdf_url': "https://nubisub.github.io/remun-notifier/File/" + url_name, 'tukin_category': tukin_category}, index=[0])
+        print(df)
+        
         with open('README.md', 'a') as file:
-            file.write(f"|[{title_data}](<File/{url_name}>) |`No {no_data}` | `{tukin_category}` |`{date_data}` |\n")
+            file.write(f"|[{title_data}](<File/{url_name}>) |`No {no_data}` | `{tukin_category}` |`{formatted_date}` |\n")
         send_email(f"Tukin Naik", title_data)
         insertData(df)
     return get_data(number + 1)
