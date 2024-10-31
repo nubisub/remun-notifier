@@ -90,7 +90,7 @@ def get_data(number):
         title_data = title_data.split("Lingkungan ", 1)[1]
         download_pdf(url_data, url_name, number_data)
         tukin_category = categorizeData(f"File/{url_name}")
-        df = pd.DataFrame({'peraturan_number': int(no_data), 'peraturan_year': year, 'peraturan_title': peraturan_name, 'peraturan_download_id': 0,'peraturan_url_id': 0, 'pdf_url': "https://nubisub.github.io/remun-notifier/File/" + url_name, 'tukin_category': tukin_category}, index=[0])
+        df = pd.DataFrame({'peraturan_number': int(no_data), 'peraturan_year': year, 'peraturan_title': peraturan_name, 'peraturan_download_id': 0,'peraturan_url_id': 0, 'pdf_url': "https://nubisub.github.io/remun-notifier/File/" + url_name, 'tukin_category': tukin_category, 'is_aktif':1}, index=[0])
         
         with open('README.md', 'a') as file:
             file.write(f"|[{title_data}](<File/{url_name}>) |`No {no_data}` | `{tukin_category}` |`{formatted_date}` |\n")
