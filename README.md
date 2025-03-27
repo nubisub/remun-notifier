@@ -29,3 +29,4 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Perpustakaan Nasional](<File/Salinan Perpres Nomor 205 Tahun 2024.pdf>) |`No 205` | `6` |`16 December 2024` |
 |[Badan Inetijen Negara](<File/Salinan Perpres Nomor 203 Tahun 2024.pdf>) |`No 203` | `5` |`16 December 2024` |
 |[Badan Nasioal Penanggulangan Bencana](<File/Salinan Perpres Nomor 204 Tahun 2024.pdf>) |`No 204` | `4` |`16 December 2024` |
+|[Kementerian Pendidikan Tinggi, Sains, Dan Teknologi](<File/Salinan Perpres Nomor 19 Tahun 2025.pdf>) |`No 19` | `4` |`27 March 2025` |
