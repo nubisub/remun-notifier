@@ -32,3 +32,4 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Kementerian Pendidikan Tinggi, Sains, Dan Teknologi](<File/Salinan Perpres Nomor 19 Tahun 2025.pdf>) |`No 19` | `4` |`27 March 2025` |
 |[Kementerian Kebudayaan](<File/Salinan Perpres Nomor 20 Tahun 2025.pdf>) |`No 20` | `4` |`27 March 2025` |
 |[Kementerian Pendidikan Dasar Dan Menengah](<File/Salinan Perpres Nomor 18 Tahun 2025.pdf>) |`No 18` | `4` |`27 March 2025` |
+|[Kementerian Sekretariat Negara](<File/Salinan Perpres Nomor 45 Tahun 2025.pdf>) |`No 45` | `5` |`24 April 2025` |
