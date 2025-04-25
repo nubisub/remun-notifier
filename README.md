@@ -33,3 +33,5 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Kementerian Kebudayaan](<File/Salinan Perpres Nomor 20 Tahun 2025.pdf>) |`No 20` | `4` |`27 March 2025` |
 |[Kementerian Pendidikan Dasar Dan Menengah](<File/Salinan Perpres Nomor 18 Tahun 2025.pdf>) |`No 18` | `4` |`27 March 2025` |
 |[Kementerian Sekretariat Negara](<File/Salinan Perpres Nomor 45 Tahun 2025.pdf>) |`No 45` | `5` |`24 April 2025` |
+|[Kementerian Koordinator Bidang Politik Dan Keamanan](<File/Salinan Perpres Nomor 23 Tahun 2025.pdf>) |`No 23` | `4` |`24 April 2025` |
+|[Kementerian Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, Dan Pemasyarakatan](<File/Salinan Perpres Nomr 24 Tahun 2025.pdf>) |`No 24` | `4` |`24 April 2025` |
