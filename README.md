@@ -35,3 +35,11 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Kementerian Sekretariat Negara](<File/Salinan Perpres Nomor 45 Tahun 2025.pdf>) |`No 45` | `5` |`24 April 2025` |
 |[Kementerian Koordinator Bidang Politik Dan Keamanan](<File/Salinan Perpres Nomor 23 Tahun 2025.pdf>) |`No 23` | `4` |`24 April 2025` |
 |[Kementerian Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, Dan Pemasyarakatan](<File/Salinan Perpres Nomr 24 Tahun 2025.pdf>) |`No 24` | `4` |`24 April 2025` |
+|[Kementerian Koordinator Bidang Infrastruktur Dan Pembangunan Kewilayahan](<File/Salinan Perpres Nomor 25 Tahun 2025.pdf>) |`No 25` | `6` |`24 April 2025` |
+|[Kementerian Koordinator Bidang Pangan](<File/Salinan Perpres Nomor 26 Tahun 2025.pdf>) |`No 26` | `4` |`24 April 2025` |
+|[Kementerian Koordinator Bidang Pemberdayaan Masyarakat](<File/Salinan Perpres Nomor 27 Tahun 2025.pdf>) |`No 27` | `6` |`24 April 2025` |
+|[Kementerian Hukum](<File/Salinan Perpres Nomor 28 Tahun 2025.pdf>) |`No 28` | `4` |`24 April 2025` |
+|[Kementerian Hak Asasi Manusia](<File/Salinan Perpres Nomor 29 Tahun 2025.pdf>) |`No 29` | `5` |`24 April 2025` |
+|[Kementerian Imigrasi Dan Pemasyarakatan](<File/Salinan Perpres Nomor 30 Tahun 2025.pdf>) |`No 30` | `6` |`24 April 2025` |
+|[Kementerian Pelindungan Pekerja Migran Indonesia/Badan Pelindungan Pekerja Migran Indonesia](<File/Salinan Perpres Nomor 31 Tahun 2025.pdf>) |`No 31` | `4` |`24 April 2025` |
+|[Kementerian Pekerjaan Umum](<File/Salinan Perpres Nomor 32 Tahun 2025.pdf>) |`No 32` | `5` |`24 April 2025` |
