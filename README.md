@@ -43,3 +43,15 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Kementerian Imigrasi Dan Pemasyarakatan](<File/Salinan Perpres Nomor 30 Tahun 2025.pdf>) |`No 30` | `6` |`24 April 2025` |
 |[Kementerian Pelindungan Pekerja Migran Indonesia/Badan Pelindungan Pekerja Migran Indonesia](<File/Salinan Perpres Nomor 31 Tahun 2025.pdf>) |`No 31` | `4` |`24 April 2025` |
 |[Kementerian Pekerjaan Umum](<File/Salinan Perpres Nomor 32 Tahun 2025.pdf>) |`No 32` | `5` |`24 April 2025` |
+|[Kementerian Kehutanan](<File/Salinan Perpres Nomor 34 Tahun 2025.pdf>) |`No 34` | `4` |`24 April 2025` |
+|[Kementerian Perumahan Dan Kawasan Permukiman](<File/Salinan Perpres Nomor 33 Tahun 2025.pdf>) |`No 33` | `5` |`24 April 2025` |
+|[Kementerian Lingkungan Hidup/Badan Pengendalian Lingkungan Hidup](<File/Salinan Perpres Nomor 35 Tahun 2025.pdf>) |`No 35` | `4` |`24 April 2025` |
+|[Kementerian Kependudukan Dan Pembangunan Keluarga/Badan Kependudukan Dan Keluarga Berencana Nasional](<File/Salinan Perpres Nomor 36 Tahun 2025.pdf>) |`No 36` | `4` |`24 April 2025` |
+|[Kementerian Usaha Mikro, Kecil, Dan Menengah](<File/Salinan Perpres Nomor 37 Tahun 2025.pdf>) |`No 37` | `4` |`24 April 2025` |
+|[Kementerian Koperasi](<File/Salinan Perpres Nomor 38 Tahun 2025.pdf>) |`No 38` | `4` |`24 April 2025` |
+|[Kementerian Investasi Dan Hilirisasi/Badan Koordinasi Penanaman Modal](<File/Salinan Perpres Nomor 44 Tahun 2025.pdf>) |`No 44` | `4` |`24 April 2025` |
+|[Kementerian Komunikasi Dan Digital](<File/Salinan Perpres Nomor 43 Tahun 2025.pdf>) |`No 43` | `4` |`24 April 2025` |
+|[Kementerian Transmigrasi](<File/Salinan Perpres Nomor 42 Tahun 2025.pdf>) |`No 42` | `4` |`24 April 2025` |
+|[Kementerian Desa Dan Pembangunan Daerah Tertinggal](<File/Salinan Perpres Nomor 41 Tahun 2025.pdf>) |`No 41` | `4` |`24 April 2025` |
+|[Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif](<File/Salinan Perprees Nomor 40 Tahun 2025.pdf>) |`No 40` | `4` |`24 April 2025` |
+|[Kementerian Pariwisata](<File/Salinan Perpres Nomor 39 Tahun 2025.pdf>) |`No 39` | `4` |`24 April 2025` |
