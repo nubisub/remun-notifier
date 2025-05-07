@@ -55,3 +55,4 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Kementerian Desa Dan Pembangunan Daerah Tertinggal](<File/Salinan Perpres Nomor 41 Tahun 2025.pdf>) |`No 41` | `4` |`24 April 2025` |
 |[Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif](<File/Salinan Perprees Nomor 40 Tahun 2025.pdf>) |`No 40` | `4` |`24 April 2025` |
 |[Kementerian Pariwisata](<File/Salinan Perpres Nomor 39 Tahun 2025.pdf>) |`No 39` | `4` |`24 April 2025` |
+|[Kementerian Pemuda Dan Olahraga](<File/Salinan Perpres No.47 Tahun 2025.pdf>) |`No 47` | `3` |`06 May 2025` |
