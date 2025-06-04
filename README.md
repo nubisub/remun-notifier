@@ -24,23 +24,23 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Badan Keamanan Laut](<File/Salinan Perpres Nomor 97 Tahun 2024.pdf>) |`No 97` | `2` |`02 September 2024` |
 |[Kementerian Koordinator Bidang Pembangunan Manusia Dan Kebudayaan](<File/Salinan Perpres Nomor 102 Tahun 2024.pdf>) |`No 102` | `4` |`30 September 2024` |
 |[Badan Nasional Pencarian Dan Pertolongan](<File/Salinan Perpres Nomor 118 Tahun 2024.pdf>) |`No 118` | `4` |`11 October 2024` |
-|[Kementerian Ketenagakerjaan](<File/Salinan Perpres 133 Tahun 2024.pdf>) |`No 133` | `6` |`18 October 2024` |
+|[Kementerian Ketenagakerjaan](<File/Salinan Perpres 133 Tahun 2024.pdf>) |`No 133` | `4` |`18 October 2024` |
 |[Sekretariat Jenderal Dewan Perwakilan Rakyat Republik Indonesia](<File/Salinan Perpres Nomor 135 Tahun 2024.pdf>) |`No 135` | `5` |`18 October 2024` |
-|[Perpustakaan Nasional](<File/Salinan Perpres Nomor 205 Tahun 2024.pdf>) |`No 205` | `6` |`16 December 2024` |
-|[Badan Inetijen Negara](<File/Salinan Perpres Nomor 203 Tahun 2024.pdf>) |`No 203` | `5` |`16 December 2024` |
-|[Badan Nasioal Penanggulangan Bencana](<File/Salinan Perpres Nomor 204 Tahun 2024.pdf>) |`No 204` | `4` |`16 December 2024` |
+|[Perpustakaan Nasional](<File/Salinan Perpres Nomor 205 Tahun 2024.pdf>) |`No 205` | `4` |`16 December 2024` |
+|[Badan Intelijen Negara](<File/Salinan Perpres Nomor 203 Tahun 2024.pdf>) |`No 203` | `5` |`16 December 2024` |
+|[Badan Nasional Penanggulangan Bencana](<File/Salinan Perpres Nomor 204 Tahun 2024.pdf>) |`No 204` | `4` |`16 December 2024` |
 |[Kementerian Pendidikan Tinggi, Sains, Dan Teknologi](<File/Salinan Perpres Nomor 19 Tahun 2025.pdf>) |`No 19` | `4` |`27 March 2025` |
 |[Kementerian Kebudayaan](<File/Salinan Perpres Nomor 20 Tahun 2025.pdf>) |`No 20` | `4` |`27 March 2025` |
 |[Kementerian Pendidikan Dasar Dan Menengah](<File/Salinan Perpres Nomor 18 Tahun 2025.pdf>) |`No 18` | `4` |`27 March 2025` |
 |[Kementerian Sekretariat Negara](<File/Salinan Perpres Nomor 45 Tahun 2025.pdf>) |`No 45` | `5` |`24 April 2025` |
 |[Kementerian Koordinator Bidang Politik Dan Keamanan](<File/Salinan Perpres Nomor 23 Tahun 2025.pdf>) |`No 23` | `4` |`24 April 2025` |
 |[Kementerian Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, Dan Pemasyarakatan](<File/Salinan Perpres Nomr 24 Tahun 2025.pdf>) |`No 24` | `4` |`24 April 2025` |
-|[Kementerian Koordinator Bidang Infrastruktur Dan Pembangunan Kewilayahan](<File/Salinan Perpres Nomor 25 Tahun 2025.pdf>) |`No 25` | `6` |`24 April 2025` |
+|[Kementerian Koordinator Bidang Infrastruktur Dan Pembangunan Kewilayahan](<File/Salinan Perpres Nomor 25 Tahun 2025.pdf>) |`No 25` | `4` |`24 April 2025` |
 |[Kementerian Koordinator Bidang Pangan](<File/Salinan Perpres Nomor 26 Tahun 2025.pdf>) |`No 26` | `4` |`24 April 2025` |
-|[Kementerian Koordinator Bidang Pemberdayaan Masyarakat](<File/Salinan Perpres Nomor 27 Tahun 2025.pdf>) |`No 27` | `6` |`24 April 2025` |
+|[Kementerian Koordinator Bidang Pemberdayaan Masyarakat](<File/Salinan Perpres Nomor 27 Tahun 2025.pdf>) |`No 27` | `4` |`24 April 2025` |
 |[Kementerian Hukum](<File/Salinan Perpres Nomor 28 Tahun 2025.pdf>) |`No 28` | `4` |`24 April 2025` |
-|[Kementerian Hak Asasi Manusia](<File/Salinan Perpres Nomor 29 Tahun 2025.pdf>) |`No 29` | `5` |`24 April 2025` |
-|[Kementerian Imigrasi Dan Pemasyarakatan](<File/Salinan Perpres Nomor 30 Tahun 2025.pdf>) |`No 30` | `6` |`24 April 2025` |
+|[Kementerian Hak Asasi Manusia](<File/Salinan Perpres Nomor 29 Tahun 2025.pdf>) |`No 29` | `4` |`24 April 2025` |
+|[Kementerian Imigrasi Dan Pemasyarakatan](<File/Salinan Perpres Nomor 30 Tahun 2025.pdf>) |`No 30` | `4` |`24 April 2025` |
 |[Kementerian Pelindungan Pekerja Migran Indonesia/Badan Pelindungan Pekerja Migran Indonesia](<File/Salinan Perpres Nomor 31 Tahun 2025.pdf>) |`No 31` | `4` |`24 April 2025` |
 |[Kementerian Pekerjaan Umum](<File/Salinan Perpres Nomor 32 Tahun 2025.pdf>) |`No 32` | `5` |`24 April 2025` |
 |[Kementerian Kehutanan](<File/Salinan Perpres Nomor 34 Tahun 2025.pdf>) |`No 34` | `4` |`24 April 2025` |
