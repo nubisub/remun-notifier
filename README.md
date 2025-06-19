@@ -56,3 +56,5 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif](<File/Salinan Perprees Nomor 40 Tahun 2025.pdf>) |`No 40` | `4` |`24 April 2025` |
 |[Kementerian Pariwisata](<File/Salinan Perpres Nomor 39 Tahun 2025.pdf>) |`No 39` | `4` |`24 April 2025` |
 |[Kementerian Pemuda Dan Olahraga](<File/Salinan Perpres No.47 Tahun 2025.pdf>) |`No 47` | `3` |`06 May 2025` |
+|[Badan Gizi Nasional](<File/Salinan Perpres Nomor 74 Tahun 2025.pdf>) |`No 74` | `4` |`18 June 2025` |
+|[Badan Karantina Indonesia](<File/Salinan Perpres Nomor 73 Tahun 2025.pdf>) |`No 73` | `4` |`18 June 2025` |
