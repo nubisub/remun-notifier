@@ -58,3 +58,4 @@ Repo ini berisi daftar pembaruan tunjangan kinerja (tukin) yang dirilis oleh Kem
 |[Kementerian Pemuda Dan Olahraga](<File/Salinan Perpres No.47 Tahun 2025.pdf>) |`No 47` | `3` |`06 May 2025` |
 |[Badan Gizi Nasional](<File/Salinan Perpres Nomor 74 Tahun 2025.pdf>) |`No 74` | `4` |`18 June 2025` |
 |[Badan Karantina Indonesia](<File/Salinan Perpres Nomor 73 Tahun 2025.pdf>) |`No 73` | `4` |`18 June 2025` |
+|[Badan Penyelenggara Jaminan Produk Halal](<File/Salinan Perpres No.101 Tahun 2025.pdf>) |`No 101` | `3` |`06 October 2025` |
